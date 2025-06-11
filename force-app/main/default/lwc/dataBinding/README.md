@@ -3,6 +3,5 @@ One way data Binding is a situation where information flows in only one directio
 
 The controller(JS) passes the fullname, City, Age to Template(HTML) & prints it on the Lighting web component. PFB Screenshot of how your Lightning Web Component would look like.
 
-[![N|Solid](https://miro.medium.com/v2/resize:fit:1200/0*ejNlBANScI42cmr8.jpg)
+[![N|Solid](https://github.com/ShubhamBhurke/LightningWebComponents/blob/main/force-app/main/default/lwc/dataBinding/One-way%20data%20binding.png)
 
-![Alt text](force-app/main/default/lwc/dataBinding/One-way data binding.png)
