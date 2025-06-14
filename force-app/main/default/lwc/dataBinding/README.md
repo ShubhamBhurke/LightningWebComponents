@@ -8,4 +8,4 @@ Two way data Binding (@track) helps users to exchange data from controller (JS) 
 
 PFB Screenshot of how your Lightning Web Component with both cards would look like.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](force-app/main/default/lwc/dataBinding/Recording 2025-06-15 033726.gif)
