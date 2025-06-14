@@ -4,7 +4,7 @@ One way data Binding is a situation where information flows in only one directio
 The controller(JS) passes the fullname, City, Age to Template(HTML) & prints it on the Lighting web component. 
 
 # Salesforce Lightning Web Component Example- Two-Way data Binding
-Two way data Binding (@track) helps users to exchange data from controller (JS) to template(HTML)
+Two way data Binding (@track) helps users to exchange data from controller (JS) to template(HTML) and vice-versa.
 
 PFB Screenshot of how your Lightning Web Component with both cards would look like.
 
