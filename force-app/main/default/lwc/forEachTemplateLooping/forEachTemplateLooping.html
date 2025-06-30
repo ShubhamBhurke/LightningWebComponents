@@ -1,0 +1,28 @@
+<template>
+   <lightning-card title="for:each Template Looping- 1st Way using Array" icon-name="custom:custom63">
+    <ul class="slds-m-around_medim">
+        <template for:each={nameList} for:item="name">
+        <!--Each item in the array is assigned to the variable Name.-->
+        <!--The key attribute is used to uniquely identify each item in the loop. Here we use the name as the key as it is already unique.-->
+        <a href="#" class="list-group-item list-group-item-action" key={name}>
+            {name}
+        </a>
+        <!-- The above <a href> </a> would print the names as a hyperlink in the LWC-->
+        <!--<p class="slds-text-body_regular slds-m-top_small" key={Name}>{Name}</p>-->
+        </template> 
+    </ul>
+    </lightning-card>
+
+    <lightning-card title="for:each Template Looping- 2nd Way using Array Object" icon-name="custom:custom13">
+    <ul class="slds-m-around_medim">
+        <template for:each={cityObjectList} for:item="cityName">
+        <!--Each item in the array is assigned to the variable Name.-->
+        <!--The key attribute is used to uniquely identify each item in the loop. Here we use the name as the key as it is already unique.-->
+        <a href="#" class="list-group-item list-group-item-action" key={cityName.id}>
+            {cityName.city}
+        </a>
+        <!-- The above <a href> </a> would print the names as a hyperlink in the LWC-->
+        </template> 
+    </ul>
+    </lightning-card>
+</template>
