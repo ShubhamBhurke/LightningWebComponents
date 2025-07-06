@@ -1,0 +1,15 @@
+<template>
+    <!-- This is a template that demonstrates how to use the template iterator directive in LWC -->
+    <!-- Iterator Looping over carList Array Object-->
+    <lightning-card title="Iterator Template Looping" icon-name="custom:custom61">
+        <ul class="slds-m-around_medium"> 
+            <div class="list-group-inline">
+                <template iterator:car={carList}>
+                    <div key={car.value.id}>
+                        <p> <strong>Model- </strong> {car.value.model} <strong> Brand- </strong> {car.value.brand} </p>
+                    </div>
+                </template>
+            </div>
+        </ul>
+    </lightning-card>
+</template>
